@@ -107,3 +107,7 @@ De la misma manera se promueve la comunicación y colaboración a través de la 
   - Integración con la base de datos y servicios externos.
 
 ---
+
+## Referencias
+
+Universidad EAFIT. (2025). Educación superior y mercado laboral en Colombia: desafíos y oportunidades en un entorno de transformación. Recuperado de: https://universidadeafit.widen.net/s/cwqzrnfznb/reporte-tendencia-2025
