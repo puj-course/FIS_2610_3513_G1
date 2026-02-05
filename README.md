@@ -23,7 +23,7 @@ En Colombia existe una brecha significativa entre la formación universitaria y 
 - 22% de los empleadores reporta problemas para cubrir vacantes en tecnologías de la información y datos (Universidad EAFIT, 2025).
 - 19% de los empleadores reporta las mismas problematicas para el área de ingeniería (Universidad EAFIT, 2025).
 
-Una causa clave de esta situación son las entrevistas técnicas, especialmente en el área de ingeniería de sistemas, donde los distintos entrevistados afirmaron sentirse ansiosos, estresados y apresurados por entregar las soluciones/respuestas a preguntas en el menor tiempo posible (Behroozi et al., 2020).
+Una causa clave de esta situación son las entrevistas técnicas, especialmente en el área de ingeniería de sistemas, donde los distintos entrevistados afirmaron sentirse ansiosos, presionados y apresurados por entregar las soluciones/respuestas a preguntas en el menor tiempo posible (Behroozi et al., 2020).
 
 ---
 
