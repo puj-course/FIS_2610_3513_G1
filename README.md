@@ -19,7 +19,7 @@
 ## ⛔ Problemática
 El desempleo y la brecha entre la formación universitaria y las necesidades del mercado laboral son problemas que afrontan varios jóvenes 
 en Colombia, donde 2 de cada 10 jóvenes tienen dificultades para encontrar empleo, mientras que el 22% de los empleadores no 
-logra cubrir vacantes en tecnologías de la información y datos, y el 19% enfrenta el mismo problema en áreas de ingeniería.
+logra cubrir vacantes en tecnologías de la información y datos, y el 19% enfrenta el mismo problema en áreas de ingeniería (Universidad EAFIT, 2025).
 
 ---
 
@@ -41,11 +41,8 @@ la empleabilidad de estudiantes y profesionales mediante una preparación integr
 
 ## 📈 Propuesta de Valor
 
-DEVHUB se enfoca en un aprendizaje completo y multidisciplinar permitiendo al usuario
-enfocarse a aquellas preguntas que le interesen con base a su perfil y aspiraciones.  
-De la misma manera se promueve la comunicación y colaboración a través de la interacción y experiencias de otros usuarios. A
-diferencia de otras plataformas no nos enfocamos en problemas individuales o de una sola área del conocimiento sino en un aprendizaje 
-holístico y colaborativo que lo acerque al contexto real del mercado.
+DEVHUB se enfoca en un aprendizaje completo y multidisciplinar permitiendo al usuario enfocarse a aquellas preguntas que le interesen con base a su perfil y aspiraciones.  
+De la misma manera se promueve la comunicación y colaboración a través de la interacción y experiencias de otros usuarios. A diferencia de otras plataformas no nos enfocamos en problemas individuales o de una sola área del conocimiento sino en un aprendizaje holístico y colaborativo que lo acerque al contexto real del mercado.
 
 ---
 
