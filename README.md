@@ -6,7 +6,7 @@
 
 # DEVHUB 💻
 
-**Plataforma web de práctica para entrevistas técnicas en ingeniería de sistemas desarollada por KRILAL Technologies**
+**Plataforma web de práctica para entrevistas técnicas en ingeniería de sistemas desarollada por SkillStack Technologies**
 
 ---
 
