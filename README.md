@@ -4,7 +4,7 @@
 ---
 
 ## ⛔ Problemática
-El desempleo y la brecha entre la formación universitaria y las necesidades del mercado laboral son problemas que afrontan varios jovenes 
+El desempleo y la brecha entre la formación universitaria y las necesidades del mercado laboral son problemas que afrontan varios jóvenes 
 en Colombia, donde 2 de cada 10 jóvenes tienen dificultades para encontrar empleo, mientras que el 22% de los empleadores no 
 logra cubrir vacantes en tecnologías de la información y datos, y el 19% enfrenta el mismo problema en áreas de ingeniería.
 
