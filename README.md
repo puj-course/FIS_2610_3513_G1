@@ -17,9 +17,13 @@
 ---
 
 ## ⛔ Problemática
-El desempleo y la brecha entre la formación universitaria y las necesidades del mercado laboral son problemas que afrontan varios jóvenes 
-en Colombia, donde 2 de cada 10 jóvenes tienen dificultades para encontrar empleo, mientras que el 22% de los empleadores no 
-logra cubrir vacantes en tecnologías de la información y datos, y el 19% enfrenta el mismo problema en áreas de ingeniería (Universidad EAFIT, 2025).
+En Colombia existe una brecha significativa entre la formación universitaria y las competencias que demanda el mercado laboral, lo que dificulta la empleabilidad de muchos jóvenes recién graduados o en formación.
+
+- 2 de cada 10 jóvenes en Colombia presentan dificultades para encontrar empleo (Universidad EAFIT, 2025).
+- 22% de los empleadores reporta problemas para cubrir vacantes en tecnologías de la información y datos (Universidad EAFIT, 2025).
+- 19% de los empleadores reporta las mismas problematicas para el área de ingeniería (Universidad EAFIT, 2025).
+
+Una causa clave de esta situación son las entrevistas técnicas, especialmente en el área de ingeniería de sistemas, donde los distintos entrevistados suelen sentirse ansiosos, estresados y apresurados por entregar las soluciones/respuestas a preguntas en el menor tiempo posible, casi como si la rapidez con la que llegan a la solución fuera más importante que la calidad de la misma (Behroozi et al., 2020).
 
 ---
 
@@ -109,5 +113,7 @@ De la misma manera se promueve la comunicación y colaboración a través de la 
 ---
 
 ## Referencias
+
+Behroozi, M., Shirolkar, S., Barik, T., Parnin., & Parnin, C. (2020). Does stress impact technical interview performance? Recuperado de:  https://chrisparnin.me/pdf/stress_FSE_20.pdf
 
 Universidad EAFIT. (2025). Educación superior y mercado laboral en Colombia: desafíos y oportunidades en un entorno de transformación. Recuperado de: https://universidadeafit.widen.net/s/cwqzrnfznb/reporte-tendencia-2025
