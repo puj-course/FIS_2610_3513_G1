@@ -1,5 +1,18 @@
+<p align="center">
+  <img src="./assets/devhub-logo.png" alt="DevHub Logo" width="640">
+</p>
+
+> "Entrena con propósito, destaca con confianza."  
+
 # DEVHUB 💻
+
 **Plataforma web de práctica para entrevistas técnicas en ingeniería de sistemas desarollada por KRILAL Technologies**
+
+---
+
+<div align="center">
+  <strong>Índice</strong> • <a href="#-problemática">Problemática</a> • <a href="#-proyecto">Proyecto</a> • <a href="#-características-del-sistema">Características</a> • <a href="#-propuesta-de-valor">Propuesta de Valor</a> • <a href="#equipo">Equipo</a>
+</div>
 
 ---
 
@@ -7,7 +20,6 @@
 El desempleo y la brecha entre la formación universitaria y las necesidades del mercado laboral son problemas que afrontan varios jóvenes 
 en Colombia, donde 2 de cada 10 jóvenes tienen dificultades para encontrar empleo, mientras que el 22% de los empleadores no 
 logra cubrir vacantes en tecnologías de la información y datos, y el 19% enfrenta el mismo problema en áreas de ingeniería.
-
 
 ---
 
@@ -50,12 +62,51 @@ holístico y colaborativo que lo acerque al contexto real del mercado.
 
 | Integrante | Rol |
 |------------|-----|
-| Iván Santiago Lastra | PM y Desarollador Frontend |
+| Iván Santiago Lastra | PM y Coordinador Frontend |
 | Lucas Fuentes | Desarollador Base de Datos |
-| Lorenzo Ramírez | Desarollador Backend |
+| Lorenzo Ramírez | Coordinador Backend |
 | Richard Castillo | Desarollador Base de Datos |
 | Ana María Murcia | Desarrolladora Frontend y Diseño |
 | Adam Kalel Ordoñez | Desarrollador Backend |
 
 ---
 
+## 📌 Responsabilidades
+
+- Iván Santiago Lastra — PM y Coordinador Frontend
+  - Dirección y planificación del proyecto.
+  - Coordinación del equipo frontend y revisión de interfaces.
+  - Gestión de backlog, priorización de tareas y seguimiento de sprints.
+  - Revisión de PRs y validación de entregables frontend.
+
+- Lucas Fuentes — Desarollador Base de Datos
+  - Diseño y modelado del esquema de la base de datos.
+  - Creación de migraciones y scripts de inicialización.
+  - Optimización de consultas y mantenimiento de índices.
+  - Asegurar integridad y backups de datos.
+
+- Lorenzo Ramírez — Coordinador Backend
+  - Arquitectura y coordinación del desarrollo backend.
+  - Definición de APIs, autenticación y seguridad.
+  - Revisión de PRs backend y mentoría del equipo.
+  - Coordinación de despliegues e integracion.
+
+- Richard Castillo — Desarollador Base de Datos
+  - Implementación de esquemas, relaciones y procedimientos.
+  - Optimización y tuning de consultas complejas.
+  - Soporte en ETL, pruebas y generación de datos de prueba.
+  - Colaboración en tareas de replicación y respaldo.
+
+- Ana María Murcia — Desarrolladora Frontend y Diseño
+  - Diseño de interfaces y prototipos (UX/UI).
+  - Implementación de componentes responsivos y accesibles.
+  - Consistencia visual y guías de estilo.
+  - Colaboración en pruebas de usabilidad y ajustes de diseño.
+
+- Adam Kalel Ordoñez — Desarrollador Backend
+  - Implementación de endpoints y lógica de negocio.
+  - Desarrollo de pruebas automatizadas (unitarias / integración).
+  - Manejo de errores, validaciones y performance.
+  - Integración con la base de datos y servicios externos.
+
+---
