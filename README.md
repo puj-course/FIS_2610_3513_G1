@@ -70,6 +70,17 @@ De la misma manera se promueve la comunicación y colaboración a través de la 
 | Ana María Murcia | Desarrolladora Frontend y Diseño |
 | Adam Kalel Ordoñez | Desarrollador Backend |
 
+## Roles según Metodología Scrum
+
+| Rol Scrum | Integrante |
+|----------|------------|
+| Product Owner | Adam Kalel Ordoñez |
+| Scrum Master | Lorenzo Ramírez |
+| Sprint Planner | Richard Castillo |
+| Configuration Manager | Iván Santiago Lastra |
+| Quality Assurance Lead | Ana María Murcia |
+| DevOps Engineer | Lucas Fuentes |
+
 ---
 
 ## 📌 Responsabilidades
