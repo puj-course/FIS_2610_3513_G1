@@ -72,14 +72,14 @@ De la misma manera se promueve la comunicación y colaboración a través de la 
 
 ## Roles según Metodología Scrum
 
-| Rol Scrum | Integrante |
-|----------|------------|
-| Product Owner | Adam Kalel Ordoñez |
-| Scrum Master | Lorenzo Ramírez |
-| Sprint Planner | Richard Castillo |
-| Configuration Manager | Iván Santiago Lastra |
-| Quality Assurance Lead | Ana María Murcia |
-| DevOps Engineer | Lucas Fuentes |
+| Integrante | Rol Scrum |
+|------------|-----------|
+| Adam Kalel Ordoñez | Product Owner |
+| Lorenzo Ramírez | Scrum Master |
+| Richard Castillo | Sprint Planner |
+| Iván Santiago Lastra | Configuration Manager |
+| Ana María Murcia | Quality Assurance Lead |
+| Lucas Fuentes | DevOps Engineer |
 
 ---
 
@@ -120,6 +120,44 @@ De la misma manera se promueve la comunicación y colaboración a través de la 
   - Desarrollo de pruebas automatizadas (unitarias / integración).
   - Manejo de errores, validaciones y performance.
   - Integración con la base de datos y servicios externos.
+
+  ## 📌 Responsabilidades (Metodología Scrum)
+
+- Lorenzo Ramírez — Scrum Master
+  - Organiza el trabajo del equipo por sprint.
+  - Facilita la comunicación y las ceremonias Scrum.
+  - Da seguimiento al avance general del proyecto.
+  - Identifica y gestiona impedimentos del equipo.
+
+- Adam Kalel Ordoñez — Product Owner
+  - Lidera la recolección y análisis de requerimientos.
+  - Define historias de usuario, casos de uso y criterios de aceptación.
+  - Prioriza el Product Backlog según valor y dependencias.
+  - Valida entregables y realiza el cierre de issues.
+
+- Richard Castillo — Sprint Planner
+  - Descompone historias de usuario en tareas técnicas.
+  - Organiza y mantiene el backlog del sprint.
+  - Asigna y da seguimiento a tareas durante cada sprint.
+  - Asegura coherencia entre backlog, issues y sprints.
+
+- Iván Santiago Lastra — Configuration Manager
+  - Administra el repositorio del proyecto.
+  - Define y controla el flujo de trabajo (Gitflow) para ramas.
+  - Revisa y aprueba pull requests.
+  - Supervisa commits, fusiones y versionado del sistema.
+
+- Ana María Murcia — Quality Assurance Lead (QA Lead)
+  - Verifica que las entregas cumplan los criterios de evaluación.
+  - Controla el cumplimiento de tareas definidas en cada sprint.
+  - Revisa la calidad funcional, técnica y documental.
+  - Reporta defectos, desviaciones y riesgos del proyecto.
+
+- Lucas Fuentes — DevOps Engineer
+  - Diseña y mantiene los pipelines de integración y despliegue continuo (CI/CD).
+  - Automatiza pruebas y procesos de integración de módulos.
+  - Gestiona el despliegue del sistema utilizando Docker.
+  - Configura y mantiene los entornos de desarrollo, pruebas y producción.
 
 ---
 
