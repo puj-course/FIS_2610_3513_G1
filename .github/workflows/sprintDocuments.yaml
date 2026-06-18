@@ -1,107 +1,107 @@
-name: Weekly Issues
+# name: Weekly Issues
 
-on:
-  schedule:
-    - cron: '0 21 * * 1' # Lunes
-    - cron: '0 21 * * 5' # Viernes
-  workflow_dispatch:
+#on:
+ # schedule:
+  #  - cron: '0 21 * * 1' # Lunes
+   # - cron: '0 21 * * 5' # Viernes
+  #workflow_dispatch:
 
-permissions:
-  issues: write
+#permissions:
+ # issues: write
 
-jobs:
-  create_issue:
-    runs-on: ubuntu-latest
+#jobs:
+ # create_issue:
+  #  runs-on: ubuntu-latest
 
-    steps:
-      - name: Get date and day
-        id: date
-        run: |
-          echo "DATE=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
-          echo "DAY=$(date +'%u')" >> $GITHUB_OUTPUT
+   # steps:
+    #  - name: Get date and day
+     #   id: date
+      #  run: |
+       #   echo "DATE=$(date +'%d/%m/%Y')" >> $GITHUB_OUTPUT
+        #  echo "DAY=$(date +'%u')" >> $GITHUB_OUTPUT
 
-      - name: Create Issues
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const date = '${{ steps.date.outputs.DATE }}';
-            const day = '${{ steps.date.outputs.DAY }}';
+      #- name: Create Issues
+       # uses: actions/github-script@v7
+#        with:
+ #         script: |
+  #          const date = '${{ steps.date.outputs.DATE }}';
+   #         const day = '${{ steps.date.outputs.DAY }}';
+#
+ #           const common = {
+  #            owner: context.repo.owner,
+   #           repo: context.repo.repo,
+    #          assignees: [
+     #           "brewLux",
+      #          "KALEL2006",
+       #         "ana2320-ux",
+        #        "RichardCastillo-jpg",
+         #       "Ivan140809",
+          #      "lorenzoramirez-lrc"
+           #   ]
+            #};
 
-            const common = {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              assignees: [
-                "brewLux",
-                "KALEL2006",
-                "ana2320-ux",
-                "RichardCastillo-jpg",
-                "Ivan140809",
-                "lorenzoramirez-lrc"
-              ]
-            };
-
-            if (day === "1") {
-              await github.rest.issues.create({
-                ...common,
-                title: `Sprint Planning #`,
-                body: `
+           # if (day === "1") {
+            #  await github.rest.issues.create({
+             #   ...common,
+              #  title: `Sprint Planning #`,
+               # body: `
                 # Sprint Planning – Sprint # ${date} 
                 
-                **Duración del Sprint: 5 dias**  
-                **Fechas: ${date} a ${date}**
+              #  **Duración del Sprint: 5 dias**  
+               # **Fechas: ${date} a ${date}**
 
                 ### Sprint Goal
 
-                >  Completar Historias de Usuario: #, # y # relacionadas con .
+                #>  Completar Historias de Usuario: #, # y # relacionadas con .
 
                 
                 ### Sprint Backlog
 
-                Las historias de usuario del sprint llevo a la definicion de las siguientes tasks en el sprint backlog
+                #Las historias de usuario del sprint llevo a la definicion de las siguientes tasks en el sprint backlog
 
                 ### Incremento esperado
-                - Una vez finalizado el sprint el usuario podra
+           #     - Una vez finalizado el sprint el usuario podra
 
-                `
-              });
-            }
+            #    `
+             # });
+           # }
 
-            if (day === "5") {
+#            if (day === "5") {
               
-              await github.rest.issues.create({
-                ...common,
-                title: `Sprint Retrospective #`,
-                body: `
-                Que salio bien?
+ #             await github.rest.issues.create({
+  #              ...common,
+   #             title: `Sprint Retrospective #`,
+    #            body: `
+     #           Que salio bien?
 
-                Que no salio bien?
+      #          Que no salio bien?
 
-                Que podemos mejorar?
+       #         Que podemos mejorar?
                 
-                `
-              });
+        #        `
+         #     });
 
-              await github.rest.issues.create({
-                ...common,
-                title: `Sprint Review #`,
-                body: `
+          #    await github.rest.issues.create({
+           #     ...common,
+            #    title: `Sprint Review #`,
+             #   body: `
                 # Fecha: ${date}
                 # Sprint Goal
-                - HU#:
-                - HU#:
+              #  - HU#:
+               # - HU#:
 
                 ## 1. Incremento entregado
 
                 ## 2. Demostración
-                - Issues cerrados: Se cerraron los siguientes issues mas relevantes al incremento entregado
+                #- Issues cerrados: Se cerraron los siguientes issues mas relevantes al incremento entregado
 
-                - Commits relevantes:  El incremento se ve evidenciado a traves de los siguientes commits
+               # - Commits relevantes:  El incremento se ve evidenciado a traves de los siguientes commits
 
                 ## 3. Conclusion
 
                 ## 4. Burnup  Chart del sprint
-                `
+              #  `
               });
-            }
+            }#
   
             
