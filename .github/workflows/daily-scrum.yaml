@@ -1,39 +1,39 @@
-name: Daily Scrum Issue
+# name: Daily Scrum Issue
 
-on:
-  schedule:
-    - cron: '0 21 * * 2-4' 
-  workflow_dispatch:
+# on:
+ # schedule:
+   #  - cron: '0 21 * * 2-4' 
+   #workflow_dispatch:
 
-permissions:
-  issues: write
+ #permissions:
+ #  issues: write
 
-jobs:
-  create_issue:
-    runs-on: ubuntu-latest
+ #jobs:
+ #  create_issue:
+     #runs-on: ubuntu-latest
 
-    steps:
-      - name: Generate date
-        id: date
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+ #    steps:
+   #    - name: Generate date
+     #    id: date
+       #  run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
         
-      - name: Create Daily Scrum Issue
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const date = '${{ steps.date.outputs.DATE }}';
+ #      - name: Create Daily Scrum Issue
+ #        uses: actions/github-script@v7
+   #      with:
+     #      script: |
+       #      const date = '${{ steps.date.outputs.DATE }}';
+ 
+  #           const issue = await github.rest.issues.create({
+    #           owner: context.repo.owner,
+      #         repo: context.repo.repo,
+        #       title: `Daily Scrum - ${date}`,
+          #     body: `
+            #         - ¿Qué hice ayer?
+              #       - ¿Qué haré hoy?
+                #     - ¿Bloqueos?`,
+               # assignees: ["brewLux", "KALEL2006", "ana2320-ux", "RichardCastillo-jpg", "Ivan140809", "lorenzoramirez-lrc" ] 
+             # });
 
-            const issue = await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: `Daily Scrum - ${date}`,
-              body: `
-                    - ¿Qué hice ayer?
-                    - ¿Qué haré hoy?
-                    - ¿Bloqueos?`,
-              assignees: ["brewLux", "KALEL2006", "ana2320-ux", "RichardCastillo-jpg", "Ivan140809", "lorenzoramirez-lrc" ] 
-            });
-
-            console.log(issue.data.html_url);
+             # console.log(issue.data.html_url);
   
             
